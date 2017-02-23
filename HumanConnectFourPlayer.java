@@ -1,3 +1,9 @@
+/**
+ * Implements a human connect four player.  Handles mouse events to pick a move
+ *
+ * @author America Chambers
+ */
+
 public class HumanConnectFourPlayer implements ConnectFourPlayer {
 	private byte side; // -1 or 1, depending on which side this is
 	private ConnectFour game; // pointer back to the game, to control graphics
@@ -36,7 +42,7 @@ public class HumanConnectFourPlayer implements ConnectFourPlayer {
 		}
 
 		// loop around forever, until the player does something
-		while (true) {			
+		while (true) {
 			mouseHandler.waitForMouse();
 
 			// check to make sure the user didn't close the window

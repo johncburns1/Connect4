@@ -1,3 +1,11 @@
+/**
+ * Implements a computer connect four player using a heuristic minimax algorithm
+ *
+ * @author Jack Burns
+ * @version 1.0
+ * @since 2/2017
+ */
+ 
 class ComputerConnectFourPlayer implements ConnectFourPlayer {
 
 	private static final int INFINITY = 1100000; //my infinity
